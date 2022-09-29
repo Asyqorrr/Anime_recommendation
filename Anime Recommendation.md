@@ -22,7 +22,7 @@ Berdasarkan kondisi yang sudah disampaikan pada project overview, maka penulis m
 Untuk sistem rekomendasi anime ini yang menggunakan teknik Content Based Filtering saya menggunakan metriks Jaccard Similarity Coefficient yang menghitung seberapa dekat jarak antara dua set sampel.
 Jaccard distance di definisikan sebagai berikut 
 
-**gambar rumus jaccard distance
+![image](https://user-images.githubusercontent.com/110660648/193005864-4abc3b0a-c6d9-4845-88fd-79190c86d74a.png)
 
 # Data Understanding
 ## Dataset Information
@@ -146,7 +146,7 @@ Banyaknya rekomendasi tergantung dari nilai k yang di define di fungsi anime_rec
 ## Hasil Rekomendasi 
 Hasil dari rekomendasi judul anime yang di input dengan judul 'Bleach' adalah sebagai berikut
 
-**gambar rekom anime
+![image](https://user-images.githubusercontent.com/110660648/193006059-d8ae809a-ff8d-4bfb-afb9-3037132fc26f.png)
 
 # Evaluation
 ## Jaccard Similarity Coefficient
@@ -155,4 +155,4 @@ Berarti berdasarkan input judul anime kita maka JSC akan mengecek berapa banyak 
 
 Hasil dari metrik menggunakan jaccard similarity coefficient dengan input judul anime 'Bleach' adalah 0.85
 
-**ss jaccard_value_total
+![image](https://user-images.githubusercontent.com/110660648/193006106-82efd16c-228c-4b83-ad07-56bad0d22a9c.png)
